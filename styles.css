@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+body {
+    background-color:#f3eed9;
+    transition: background-color 1s ease;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+*{
+    margin: 0px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 0.6rem;
+    border-width: 0.3rem;
+    border-color: #e9d689;
+    width: 13rem;
+}
+:placeholder-shown{
+    text-align: center;
+}
+
+#tell-me-btn {
+    margin-top: 2rem;
+    padding:0.5rem;
+    width: 12rem;
+    border-radius: 2rem;
+    border-width: 0.3rem;
+    border-color: #c4a93d;
+    font-weight:900;
+}
+
+#output {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: larger;
+    font-weight:900;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 3rem;
+    background-color: #FEF3C7;
+    height: 6rem;
+    transition: background-color 2s ease;
+    border-bottom-right-radius: 1rem;
+
+}
+
+#initial-price {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+#quantity {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
