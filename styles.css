@@ -2,9 +2,9 @@
 
 body {
     background-color:#0B486B;
-    transition: background-color 1s ease;
     font-family: 'Maven Pro', sans-serif;
     font-size: larger;
+
 }
 
 *{
@@ -23,7 +23,6 @@ input {
     margin: auto;
     border-radius: 0.6rem;
     border-width: 0.3rem;
-    border-color: #0B486B;
     width: 13rem;
 }
 :placeholder-shown{
@@ -54,7 +53,6 @@ h1 {
     padding-top: 3rem;
     background-color: #0B486B;
     height: 6rem;
-    border-bottom-right-radius: 1rem;
 
 }
 
