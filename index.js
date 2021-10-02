@@ -13,8 +13,6 @@ function calProfitAndLoss(iP, qty, cP) {
         // output
         output.innerText = "Loss:" + loss +  "   Percentage Loss: " + pL + "%"
 
-        container.style.backgroundColor = "#EF4444";
-        header.style.backgroundColor= "#991B1B"
 
     } else if(iP < cP){
         var profit = (cP - iP) * qty;
@@ -23,18 +21,14 @@ function calProfitAndLoss(iP, qty, cP) {
         // output
         output.innerText = "Profit:" + profit +  "    Percentage Profit: " + pP + "%"
 
-        container.style.backgroundColor = "#10B981";
-        header.style.backgroundColor= "#047857"
 
     } else if(cP = iP) {
         // output
         output.innerText = "No Profit or Loss"
-        container.style.backgroundColor = "#f3eed9";
-        header.style.backgroundColor= "#FEF3C7"
+      
     } else {
         output.innerText = "PLEASE FILL OUT ALL FIELDS"
-        container.style.backgroundColor = "#f3eed9";
-        header.style.backgroundColor= "#FEF3C7"
+        
     }
 }
 
